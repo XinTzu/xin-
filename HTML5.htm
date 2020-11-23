@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tw">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<style>
+p{
+	color:brown;
+	margin:5px;
+	cursor:pointer;
+}
+p:hover{
+	background:orange;
+}
+</style>
+</head>
+<body>
+
+<p>商品說明</p>
+
+<div class="product" align=center>
+
+<h1>統一7-ELEVEn獅2020視覺圖應援毛巾</h1>
+<img src="001.jpg">
+</div>
+<script>
+$("p").click(function(){
+	$(".product").slideToggle();
+});
+</script>
+</body>
+</html>
